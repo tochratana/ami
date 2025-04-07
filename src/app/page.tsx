@@ -3,6 +3,7 @@ import Link from "next/link";
 import AnimatedSection from "@/components/AnimatedSection";
 import ProjectCard from "@/components/ProjectCard";
 import { featuredProjects } from "@/lib/projects";
+import profile from "../../public/image/profile.jpeg";
 
 export default function Home() {
   return (
@@ -61,7 +62,7 @@ export default function Home() {
               <div className="w-full md:w-1/3">
                 <div className="relative w-64 h-64 mx-auto rounded-full overflow-hidden">
                   <Image
-                    src="/profile.jpg"
+                    src={profile}
                     alt="Your Name"
                     fill
                     className="object-cover"

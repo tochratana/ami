@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: "E-commerce Platform",
     description:
       "A full-featured online shopping platform with cart, checkout, and payment processing.",
-    image: "/projects/ecommerce.jpg",
+    image: "/../../public/projects/p_business.png",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -35,7 +35,7 @@ export const projects: Project[] = [
     title: "Task Management App",
     description:
       "A productivity app with kanban boards, task assignments, and deadlines.",
-    image: "/projects/taskapp.jpg",
+    image: "/../../public/projects/reancode.jpg",
     technologies: ["React", "TypeScript", "Redux", "Firebase", "Material UI"],
     demoUrl: "https://example.com/taskapp",
     githubUrl: "https://github.com/yourusername/taskapp",

@@ -7,7 +7,7 @@ export default function ProjectCard({ project }: { project: Project }) {
     <div className="card group">
       <div className="relative h-48 w-full overflow-hidden">
         <Image
-          src={project.image}
+          src="/public/projects/reancode.jpg"
           alt={project.title}
           fill
           className="object-cover transition-transform duration-300 group-hover:scale-105"
