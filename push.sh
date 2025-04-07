@@ -34,3 +34,6 @@ echo "Pushing to remote repository..."
 git push origin $CURRENT_BRANCH
 
 echo "Done! Changes have been pushed to '$CURRENT_BRANCH'"
+
+
+# TODO RUN : ./push.sh "Your commit message here"
